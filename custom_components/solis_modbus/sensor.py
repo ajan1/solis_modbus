@@ -1000,7 +1000,7 @@ async def async_setup_entry(hass: HomeAssistant, config_entry: ConfigEntry, asyn
                  "register": ['43789'], "multiplier": 0, "unit_of_measurement": UnitOfTime.MINUTES,
                  "state_class": SensorStateClass.MEASUREMENT},
                 {"type": "SS", "name": "Solis Timed Discharge End Hour (Slot 6)",
-                 "unique": "solis_modbus_inverter_discharge_end_hour_slot62",
+                 "unique": "solis_modbus_inverter_discharge_end_hour_slot6",
                  "register": ['43790'], "multiplier": 0,
                  "unit_of_measurement": UnitOfTime.HOURS, "state_class": SensorStateClass.MEASUREMENT},
                 {"type": "SS", "name": "Solis Timed Discharge End Minute (Slot 6)",
