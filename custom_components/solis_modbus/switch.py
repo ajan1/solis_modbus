@@ -39,12 +39,12 @@ async def async_setup_entry(hass, config_entry: ConfigEntry, async_add_devices):
                 {"type": "SBS", "bit_position": 3, "name": "Charge Time Slot 4 Switch"},
                 {"type": "SBS", "bit_position": 4, "name": "Charge Time Slot 5 Switch"},
                 {"type": "SBS", "bit_position": 5, "name": "Charge Time Slot 6 Switch"},
-                {"type": "SBS", "bit_position": 6, "name": "Disharge Time Slot 1 Switch"},
-                {"type": "SBS", "bit_position": 7, "name": "Disharge Time Slot 2 Switch"},
-                {"type": "SBS", "bit_position": 8, "name": "Disharge Time Slot 3 Switch"},
-                {"type": "SBS", "bit_position": 9, "name": "Disharge Time Slot 4 Switch"},
-                {"type": "SBS", "bit_position": 10, "name": "Disharge Time Slot 5 Switch"},
-                {"type": "SBS", "bit_position": 11, "name": "Disharge Time Slot 6 Switch"},
+                {"type": "SBS", "bit_position": 6, "name": "Discharge Time Slot 1 Switch"},
+                {"type": "SBS", "bit_position": 7, "name": "Discharge Time Slot 2 Switch"},
+                {"type": "SBS", "bit_position": 8, "name": "Discharge Time Slot 3 Switch"},
+                {"type": "SBS", "bit_position": 9, "name": "Discharge Time Slot 4 Switch"},
+                {"type": "SBS", "bit_position": 10, "name": "Discharge Time Slot 5 Switch"},
+                {"type": "SBS", "bit_position": 11, "name": "Discharge Time Slot 6 Switch"},
             ]
         }
     ]
