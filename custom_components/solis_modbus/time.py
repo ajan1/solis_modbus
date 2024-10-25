@@ -93,7 +93,7 @@ async def async_setup_entry(hass, config_entry: ConfigEntry, async_add_devices):
         {"type": "STE", "name": "Solis Timed Discharge End (Slot 5)", "register": 43783, "enabled": True},
 		
         {"type": "STE", "name": "Solis Timed Discharge Start (Slot 6)", "register": 43788, "enabled": True},
-        {"type": "STE", "name": "Solis Timed Discharge End (Slot 6)", "register": 43791, "enabled": True},
+        {"type": "STE", "name": "Solis Timed Discharge End (Slot 6)", "register": 43790, "enabled": True},
 
     ]
 
